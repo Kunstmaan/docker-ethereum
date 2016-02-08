@@ -1,0 +1,9 @@
+eth:
+  build: ./eth
+  stdin_open: true
+  tty: true
+
+geth:
+  build: ./geth
+  stdin_open: true
+  tty: true
