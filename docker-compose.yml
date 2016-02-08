@@ -1,9 +1,9 @@
 eth:
-  build: ./eth
+  image: kunstmaan/ethereum-eth
   stdin_open: true
   tty: true
 
 geth:
-  build: ./geth
+  image: kunstmaan/ethereum-geth
   stdin_open: true
   tty: true
