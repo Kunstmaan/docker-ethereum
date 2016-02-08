@@ -1,6 +1,6 @@
 # docker-ethereum
 
-This is the repository for the kunstmaan/*-ethereum docker images.
+This is the repository for the kunstmaan/ethereum-{g}eth docker images.
 
 ## Images
 
