@@ -12,7 +12,7 @@ This is the repository for the kunstmaan/ethereum-{g}eth docker images.
 Use this [docker-compose.yml](https://github.com/Kunstmaan/docker-ethereum/blob/master/docker-compose.yml) and run:
 
 ```
-docker-compose start
+docker-compose up -d
 ```
 
 ## Connecting to an image

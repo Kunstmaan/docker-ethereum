@@ -1,9 +1,25 @@
-eth:
-  image: kunstmaan/ethereum-eth
+#eth:
+#  image: kunstmaan/ethereum-eth
+#  stdin_open: true
+#  tty: true
+
+gethconsole:
+  image: kunstmaan/ethereum-geth-console
+  stdin_open: true
+  tty: true
+  links:
+    - devnet
+    - testnet
+
+testnet:
+  image: kunstmaan/ethereum-geth-testnet
   stdin_open: true
   tty: true
 
-geth:
-  image: kunstmaan/ethereum-geth
+devnet:
+  image: kunstmaan/ethereum-geth-devnet
   stdin_open: true
   tty: true
+  expose:
+    - 8545
+    - 30303

@@ -8,9 +8,8 @@ RUN apt-get update && \
     apt-get dist-upgrade -q -y && \
     apt-get install -q -y software-properties-common && \
     add-apt-repository ppa:ethereum/ethereum && \
-    add-apt-repository ppa:ethereum/ethereum-dev && \
     apt-get update && \
-    apt-get install -q -y geth && \
+    apt-get install -q -y geth solc && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
