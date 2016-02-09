@@ -6,6 +6,10 @@ This is the repository for the kunstmaan/ethereum-{g}eth docker images.
 
 * [kunstmaan/ethereum-eth](https://hub.docker.com/r/kunstmaan/ethereum-eth/): An Ubuntu 15.10 image with the Ethereum C++ eth binaries installed.
 * [kunstmaan/ethereum-geth](https://hub.docker.com/r/kunstmaan/ethereum-geth/): An Ubuntu 15.10 image with the Ethereum Go geth binaries installed.
+* [kunstmaan/ethereum-geth-devnet](https://hub.docker.com/r/kunstmaan/ethereum-geth-devnet/)
+* [kunstmaan/ethereum-geth-testnet](https://hub.docker.com/r/kunstmaan/ethereum-geth-testnet/)
+* [kunstmaan/ethereum-geth-console](https://hub.docker.com/r/kunstmaan/ethereum-geth-console/)
+
 
 ## Running
 
