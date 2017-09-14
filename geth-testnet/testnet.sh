@@ -9,4 +9,4 @@ if [ ! -f ~/.primaryaccount ]; then
     geth --testnet --password ~/.accountpassword account new > ~/.primaryaccount
 fi
 
-geth --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --testnet --password ~/.accountpassword --mine --minerthreads 1 --extradata "Kunstmaan"
+geth --rpc --rpcaddr "0.0.0.0" --rpccorsdomain "*" --ws --wsaddr "0.0.0.0" --wsorigins "*" --testnet --password ~/.accountpassword --mine --minerthreads 1 --extradata "Kunstmaan"
